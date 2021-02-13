@@ -1,7 +1,8 @@
 (function($) {
   "use strict"; // Start of use strict
-
-  const password = "0CpkLtMqQZadGc-abuYJpA";
+  
+  //La cojo de las variables del sistema, que si no no es seguro... Quién sería tan tonto de ponerla en claro? 
+  const password = "{{password}}";
 
   // Toggle the side navigation
   $("#sidebarToggle, #sidebarToggleTop").on('click', function(e) {
